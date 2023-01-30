@@ -39,34 +39,34 @@
             return {   
                 imgNotFound:'https://bitsofco.de/content/images/2018/12/Screenshot-2018-12-16-at-21.06.29.png',            
                 slide: [
-                    {
-                        title: 'Bạn cần tìm gì?',
-                        background: 'linear-gradient(to right, rgb(254, 33, 94), rgb(255, 148, 2))',
-                        color: '#ffffff',
-                        titleButton: 'Bắt đầu ngay',
-                        img: './img/baner1.png'
-                    },
-                    {
-                        title: 'Bạn cần tìm gì?',
-                        background: 'linear-gradient(to right, rgb(254, 33, 94), rgb(255, 148, 2))',
-                        color: '#ffffff',
-                        titleButton: 'Bắt đầu ngay',
-                        img: './img/baner1.png'
-                    },
-                    {
-                        title: 'Bạn cần tìm gì?',
-                        background: 'linear-gradient(to right, rgb(254, 33, 94), rgb(255, 148, 2))',
-                        color: '#ffffff',
-                        titleButton: 'Bắt đầu ngay',
-                        img: './img/baner1.png'
-                    },
                     // {
-                    //     title: 'What is Lorem Ipsum?',
-                    //     background: 'linear-gradient(to right, rgb(0, 126, 254), rgb(6, 195, 254))',
+                    //     title: 'Bạn cần tìm gì?',
+                    //     background: 'linear-gradient(to right, rgb(254, 33, 94), rgb(255, 148, 2))',
                     //     color: '#ffffff',
-                    //     titleButton: 'Register Now',
-                    //     img: './img/baner2.png'
+                    //     titleButton: 'Bắt đầu ngay',
+                    //     img: './img/baner1.png'
                     // },
+                    // {
+                    //     title: 'Bạn cần tìm gì?',
+                    //     background: 'linear-gradient(to right, rgb(254, 33, 94), rgb(255, 148, 2))',
+                    //     color: '#ffffff',
+                    //     titleButton: 'Bắt đầu ngay',
+                    //     img: './img/baner1.png'
+                    // },
+                    // {
+                    //     title: 'Bạn cần tìm gì?',
+                    //     background: 'linear-gradient(to right, rgb(254, 33, 94), rgb(255, 148, 2))',
+                    //     color: '#ffffff',
+                    //     titleButton: 'Bắt đầu ngay',
+                    //     img: './img/baner1.png'
+                    // },
+                    {
+                        title: 'Bạn cần tìm gì?',
+                        background: 'linear-gradient(to right, rgb(0, 126, 254), rgb(6, 195, 254))',
+                        color: '#ffffff',
+                        titleButton: 'Join now',
+                        img: './img/baner2.png'
+                    },
                     // {
                     //     title: 'What is Lorem Ipsum?',
                     //     background: 'linear-gradient(to right, rgb(0, 126, 254), rgb(6, 195, 254))',
@@ -74,21 +74,42 @@
                     //     titleButton: 'Register Now',
                     //     img: './img/baner3.png'
                     // },
-                    // {
-                    //     title: 'What is Lorem Ipsum?',
-                    //     background: 'linear-gradient(to right, rgb(40, 119, 250), rgb(103, 23, 205))',
-                    //     color: '#ffffff',
-                    //     titleButton: 'Register Now',
-                    //     img: './img/banner_4.png'
-                    // }
+                    {
+                        title: 'Hãy tìm kiếm, Nhiều món đồ hấp dẫn đang chờ đợi bạn',
+                        background: 'linear-gradient(to right, rgb(40, 119, 250), rgb(103, 23, 205))',
+                        color: '#ffffff',
+                        titleButton: 'Register Now',
+                        img: './img/banner_4.png'
+                    }
                 ],
                 course: [
                     {
-                        title: 'Nông sản',
-                        background: 'https://files.fullstack.edu.vn/f8-prod/courses/7.png',                       
+                        title: 'Nhà đẹp Gò Vấp',
+                        background: 'https://nhaxinhcenter.com.vn/source/pic/tin-tuc/thiet-ke-nha-dep-3-tang/thiet-ke-nha-dep-3-tang-32.jpg',                       
                         color: '#ffffff',
-                        titleButton: 'Register Now',
-                        creator:'Khánh Vinh'
+                        titleButton: 'Xem ngay',
+                        creator:'Test Dev'
+                    },
+                    {
+                        title: 'Nhà đẹp Gò Vấp',
+                        background: 'https://nhaxinhcenter.com.vn/source/pic/tin-tuc/thiet-ke-nha-dep-3-tang/thiet-ke-nha-dep-3-tang-32.jpg',                       
+                        color: '#ffffff',
+                        titleButton: 'Xem ngay',
+                        creator:'Test Dev'
+                    },
+                    {
+                        title: 'Nhà đẹp Gò Vấp',
+                        background: 'https://nhaxinhcenter.com.vn/source/pic/tin-tuc/thiet-ke-nha-dep-3-tang/thiet-ke-nha-dep-3-tang-32.jpg',                       
+                        color: '#ffffff',
+                        titleButton: 'Xem ngay',
+                        creator:'Test Dev'
+                    },
+                    {
+                        title: 'Nhà đẹp Gò Vấp',
+                        background: 'https://nhaxinhcenter.com.vn/source/pic/tin-tuc/thiet-ke-nha-dep-3-tang/thiet-ke-nha-dep-3-tang-32.jpg',                       
+                        color: '#ffffff',
+                        titleButton: 'Xem ngay',
+                        creator:'Test Dev'
                     },
                     // {
                     //     title: 'What is Lorem Ipsum?',
