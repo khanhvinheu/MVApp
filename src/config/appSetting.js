@@ -1,5 +1,5 @@
 const THEME = 'default'
-const NAME_APP ='VM'
+const NAME_APP ='VMApp'
 const LOGO_APP ='./img/logo_new.png'
 const FOOTER_APP ='© 2022 '+NAME_APP+'.'
 const BACKGROUND_IMAGE={

@@ -75,7 +75,7 @@
                     //     img: './img/baner3.png'
                     // },
                     {
-                        title: 'Hãy tìm kiếm, Nhiều món đồ hấp dẫn đang chờ đợi bạn',
+                        title: 'Nhiều món đồ hấp dẫn đang chờ đợi bạn',
                         background: 'linear-gradient(to right, rgb(40, 119, 250), rgb(103, 23, 205))',
                         color: '#ffffff',
                         titleButton: 'Register Now',
