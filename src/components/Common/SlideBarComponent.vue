@@ -1,5 +1,5 @@
 <template>
-        <el-carousel height="250px">
+        <el-carousel direction="vertical" height="250px">
             <el-carousel-item v-for="item in data" v-bind:style="{ 'background': item.background,'border-radius':'10px'}">
                 <div class="content__slide-home">
                     <div class="contain-slide">

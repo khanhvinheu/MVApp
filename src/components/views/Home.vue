@@ -4,6 +4,16 @@
             <SlideBarComponent :data="slide"/>
         </div>
         <el-divider content-position="left">
+            <span class="course__title">Danh mục</span>
+        </el-divider>
+        <el-scrollbar>
+            <div class="scrollbar-flex-content">
+            <p v-for="item in 10" :key="item" class="scrollbar-demo-item">
+               Danh mục {{ item }}
+            </p>
+            </div>
+        </el-scrollbar>
+        <el-divider content-position="left">
             <span class="course__title">Sản phẩm mới nhất? <el-button type="primary" size="small" round>Hot</el-button></span>
         </el-divider>
         <div class="cards">
@@ -129,3 +139,23 @@
     }
 </script>
 
+<style scoped>
+.scrollbar-flex-content {
+  display: flex;
+  width: 100px;
+}
+.scrollbar-demo-item {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  margin: 10px;
+  text-align: center;
+  /* border-radius: 4px; */
+  background: var(--el-color-danger-light-9);
+  color: var(--el-color-danger);
+}
+</style>

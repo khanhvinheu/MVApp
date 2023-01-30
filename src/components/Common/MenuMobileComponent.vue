@@ -24,9 +24,9 @@
             <ul class="header__nav-mobile-list">
               <li class="header__nav-mobile-item" :class=' { "active": activeMenu == "CreateBlog" } ' @click='$router.push({path: "/create-blog"})'><el-icon style="font-size: 25px;border-radius: 30px;padding: 5px;"><plus/></el-icon><span class="mobile__item-title">Tạo bài viết mới</span></li>
               <li class="header__nav-mobile-item" :class=' { "active": activeMenu == "Home" } ' @click='$router.push({path: "/"})'><el-icon style="font-size: 25px;"><home-filled /></el-icon><span class="mobile__item-title">Trang chủ</span></li>
-              <li class="header__nav-mobile-item" :class=' { "active": activeMenu == "Book"} ' @click='$router.push({path: "/book"})'><el-icon style="font-size: 25px;"><notebook /></el-icon><span class="mobile__item-title">Sách</span></li>
-              <li class="header__nav-mobile-item" :class=' { "active": activeMenu == "Video" } ' @click='$router.push({path: "/video"})'><el-icon style="font-size: 25px;"><video-camera /></el-icon><span class="mobile__item-title">Video</span></li>
-              <li class="header__nav-mobile-item" :class=' { "active": activeMenu == "Course" } ' @click='$router.push({path: "/course"})'><el-icon style="font-size: 25px;"><trend-charts /></el-icon><span class="mobile__item-title">Khóa học</span></li>
+              <li class="header__nav-mobile-item" :class=' { "active": activeMenu == "Book"} ' @click='$router.push({path: "/book"})'><el-icon style="font-size: 25px;"><notebook /></el-icon><span class="mobile__item-title">Mua săm</span></li>
+              <li class="header__nav-mobile-item" :class=' { "active": activeMenu == "Video" } ' @click='$router.push({path: "/video"})'><el-icon style="font-size: 25px;"><video-camera /></el-icon><span class="mobile__item-title">Nhà đất</span></li>
+              <li class="header__nav-mobile-item" :class=' { "active": activeMenu == "Course" } ' @click='$router.push({path: "/course"})'><el-icon style="font-size: 25px;"><trend-charts /></el-icon><span class="mobile__item-title">Blog</span></li>
 
               <el-divider />
             </ul>

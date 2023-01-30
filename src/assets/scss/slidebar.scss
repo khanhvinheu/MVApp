@@ -10,7 +10,7 @@
 }
 .content__slide-home{
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   padding: 10px;
   list-style: none;
@@ -64,6 +64,9 @@
     opacity: 0.1;
     width: 100%;
     top: 0;
+  }
+  .content__slide-home{
+    justify-content: center;
   }
 
 }
