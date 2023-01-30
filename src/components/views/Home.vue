@@ -8,8 +8,8 @@
         </el-divider>
         <el-scrollbar>
             <div class="scrollbar-flex-content">
-            <p v-for="item in 10" :key="item" class="scrollbar-demo-item">
-               Danh mục {{ item }}
+            <p v-for="item in category" :key="item" class="scrollbar-demo-item">
+               {{ item.title }}
             </p>
             </div>
         </el-scrollbar>
@@ -133,6 +133,13 @@
                     //     titleButton: 'Register Now'
                     // },
 
+                ],
+                category:[
+                    {title:'Mua sắm'},
+                    {title:'Nhà đất'},
+                    {title:'Dịch vụ'},
+                    {title:'Việc làm'},
+                    {title:'Blog'},
                 ]
             }
         }
