@@ -111,6 +111,34 @@
                         titleButton: 'Xem ngay',
                         creator:'Test Dev'
                     },
+                    {
+                        title: 'Nhà đẹp Gò Vấp',
+                        background: 'https://nhaxinhcenter.com.vn/source/pic/tin-tuc/thiet-ke-nha-dep-3-tang/thiet-ke-nha-dep-3-tang-32.jpg',                       
+                        color: '#ffffff',
+                        titleButton: 'Xem ngay',
+                        creator:'Test Dev'
+                    },
+                    {
+                        title: 'Nhà đẹp Gò Vấp',
+                        background: 'https://sgl.com.vn/wp-content/uploads/2022/01/top-10-nhung-ngoi-nha-dep-nhat-viet-nam.jpg',                       
+                        color: '#ffffff',
+                        titleButton: 'Xem ngay',
+                        creator:'Test Dev'
+                    },
+                    {
+                        title: 'Nhà đẹp Gò Vấp',
+                        background: 'https://blog.rever.vn/hubfs/cac-mau-nha-vuon-dep-o-nong-thon%201.jpg',                       
+                        color: '#ffffff',
+                        titleButton: 'Xem ngay',
+                        creator:'Test Dev'
+                    },
+                    {
+                        title: 'Nhà đẹp Gò Vấp',
+                        background: 'https://www.invert.vn/media/uploads/uploads/19154732-nha-ong-2-tang-3-phong-ngu-1.jpg',                       
+                        color: '#ffffff',
+                        titleButton: 'Xem ngay',
+                        creator:'Test Dev'
+                    },
                     // {
                     //     title: 'What is Lorem Ipsum?',
                     //     background: 'https://files.fullstack.edu.vn/f8-prod/courses/7.png',                     
