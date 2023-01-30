@@ -7,7 +7,7 @@
             <span class="course__title">Danh mục</span>
         </el-divider>
         <el-scrollbar>
-            <div class="scrollbar-flex-content">
+            <div class="scrollbar-flex-content" >
             <p v-for="item in category" :key="item" class="scrollbar-demo-item">
                {{ item.title }}
             </p>
@@ -172,7 +172,7 @@
   display: flex;
   width: 100px;
 }
-.scrollbar-demo-item {
+.scrollbar-demo-item {    
   flex-shrink: 0;
   display: flex;
   align-items: center;
@@ -185,5 +185,6 @@
   /* border-radius: 4px; */
   background: var(--el-color-danger-light-9);
   color: var(--el-color-danger);
+  font-size: 14px;
 }
 </style>
