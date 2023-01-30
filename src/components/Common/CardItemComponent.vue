@@ -21,7 +21,7 @@
                 <div class="card-bottom">
                     <div class="card-live">
                         <ion-icon name="wifi"></ion-icon>
-                        <span style="font-size: 10px;">Liên hệ ngay</span>
+                        <span style="font-size: 10px;">Liên hệ</span>
                     </div>
                     <div class="card-watching">4.2k watching</div>
                 </div>
